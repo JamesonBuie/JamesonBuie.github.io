@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+* {
+    font-family: 'Secular One', sans-serif;
+    
+
+}
+
+
+/* Header */
+.header {
+    background: cornflowerblue;
+    height: 125px;
+    position: absolute;
+    border-bottom: 4px solid black;
+    position: relative;
+}
+
+#tags {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    color: black;
+}
+
+#tags li {
+    font-weight: 200;
+    font-size: 30px;
+    padding-right: 120px;
+    position: relative;
+    bottom: 25px;
+}
+
+#tags a {
+    color: black;
+    text-decoration: none;
+}
+
+#tags a:hover {
+    color: rgba(0, 0, 0, .5);
+}
+
+.title {
+    position: relative;
+    top: 30px;
+    left: 15px;
+    font-size: 50px;
+}
+
+/* About section */
+.aboutMe {
+    /* border-bottom: 3px solid black; */
+    padding-bottom: 200px;
+}
+
+.bio {
+
+    padding-top: 100px;
+    /* padding-bottom: 220px; */
+    position: relative;
+    top: 20px;
+    /* border: 5px solid black;  */
+    text-align: center;
+    margin-left: 660px;
+    margin-right: 45px;
+
+}
+
+#bioParagraph {
+    font-size: 23px;
+    padding-top: 30px;
+}
+
+
+img.me {
+    border-radius: 90px;
+    height: 600px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    float: left;
+}
+
+#socials {
+    font-size: 60px;
+    position: relative;
+    bottom: 10px;
+    padding: 40px 35px 0 35px;
+    color: black;
+}
+
+#name {
+    display: inline-block;
+    border-bottom: 3px solid #ccc;
+    border-radius: 4px;
+
+}
+
+
+
+
+.item {
+    font-size: 30px;
+    box-sizing: border-box;
+    padding-right: 105px;
+    position: relative;
+    top: -20px;
+
+
+}
+
+.aboutIcons {
+    font-size: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 200px;
+}
+
+/* Skills Sections*/
+#skillsTitle {
+    /* display: block; */
+    /* border: 3px solid black; */
+    font-size: 60px;
+    position: relative;
+    top: 140px;
+    text-align: center;
+    margin-bottom: 20px;
+    /* left: 60px; */
+    /* padding-left: 35px; */
+}
+
+/* Boxes */
+#boxes {
+    /* margin-top: 80px; */
+    position: relative;
+    top: 130px;
+}
+
+#boxes>.container {
+    
+    border: 3px solid black;
+    padding-bottom: 20px;
+    border-radius: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.box {
+    width: 30%;
+    text-align: center;
+    padding: 35px 10px 10px 10px;
+}
+
+i {
+    font-size: 225px;
+    margin: auto;
+}
+
+.fa-html5 {
+    color: red;
+}
+
+.fa-css3-alt {
+    color: cornflowerblue;
+}
+
+.fa-js {
+    color: #f3df50;
+}
+
+
+/* Projects Section */
+section#projects {
+    display: flex;
+    justify-content: space-evenly;
+   /* margin-top: 200px; */
+    /* position: relative; */
+    /* top: 280px; */
+    border: 3px solid black;
+    border-radius: 90px;
+    padding: 35px 80px 10px 10px;
+    margin: 250px 60px 60px 60px;
+}
+#projectsTitle {
+    /* margin-bottom: 20px; */
+    position: relative;
+    top: 230px;
+    font-size: 60px;
+    text-align: center;
+    /* border-bottom: 3px solid black; */
+}
+div .card > a {
+    position: relative;
+    bottom: 5px;
+}
+
+footer {
+    background-color: cornflowerblue ;
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+}
